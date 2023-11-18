@@ -1,0 +1,141 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+a {
+  font-weight: 600;
+  color: #222;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  color: orangered !important;
+}
+section {
+  padding: 5rem 0;
+}
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 100px;
+}
+.btn-custom {
+  color: white;
+  background-color: orangered;
+  border-color: orangered;
+  font-weight: 500;
+}
+.btn-custom:hover {
+  color: white !important;
+  background-color: orange;
+  border-color: orange;
+}
+/* hero */
+
+.slide-1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-1.jpg);
+}
+.slide-2 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-2.png);
+}
+.slide-3 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-3.jpg);
+}
+.bg-cover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* main */
+
+/* about Section */
+.about_img {
+  border-radius: 100px 0;
+  width: 100%;
+}
+.orange_line {
+  background-color: orangered;
+  height: 2px;
+  width: 5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  border-radius: 100px;
+}
+/* menu */
+/* title */
+.section_pera {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-top: 0.3rem;
+}
+.title_h3 {
+  font-size: 2rem;
+}
+/* menu item */
+.menu_item_img {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+.menu_item_img > img {
+  height: 100%;
+  object-fit: cover;
+}
+.lower_card {
+  margin-top: auto;
+}
+/* features */
+.features {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-1.jpg);
+}
+.features_icon {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  color: white;
+  margin: 0 auto;
+}
+.features_icon > svg {
+  height: 2rem;
+}
+/* team */
+
+/* team_member */
+
+.team_member_img {
+  height: 100px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 100px;
+  border: 6px solid orangered;
+  outline: 6px solid rgba(255, 68, 0, 0.25);
+}
+/* reservation */
+textarea {
+  resize: none;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: orangered;
+}
+
+/* At Last Project Done 💜💙 */
